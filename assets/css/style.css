@@ -1,0 +1,54 @@
+/* style.css */
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+        }
+        /*Manejo imagen header*/
+        .header{
+        height: 5em;
+        padding: 3em;
+        font-size: 2em;
+        background-image: url("../imgs/cabecera2.jpg");
+        background-size: cover;
+        background-position: center;
+        }
+        /*Manejo titulo header*/
+        .header h1{
+        margin: 0px;
+        font-weight: 400;
+        color: white;
+        font-family: fantasy;
+        }
+        /*Manejo segundo titulo header*/
+        .p1{
+            color: white;
+            background: red;
+        }
+        
+        /*Manejo tabla de productos*/
+        .products {
+            width: 80%;
+            margin: auto;
+            }
+            .products td {
+            width: 30%;
+            padding: 5px;
+            }
+            .products img {
+            width: 100%;
+            border: solid 2px #ddd;
+            }
+            /*Manejo de Footer*/
+            .footer {
+                height: 3em;
+                line-height: 3em;
+                background-color: red;
+                color: white;
+                text-align: center;
+                font-weight: 900;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+                font-size: 20px;
+                }
+
+                
